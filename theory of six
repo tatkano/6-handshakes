@@ -37,8 +37,6 @@ counter = 0
 six_handsh = (url1, counter)
 while six_handsh:
     url, counter = six_handsh.pop(0)
-    if url.endswith(url):
-        return True
     if counter > 5:
         break
     if url == url2:
