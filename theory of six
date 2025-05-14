@@ -42,5 +42,8 @@ while 6_handsh
     url, counter = 6_handsh.pop(0)
     elif url.endswith (url):
         return True
+
+for link in links:
+    print(link)
          
        
