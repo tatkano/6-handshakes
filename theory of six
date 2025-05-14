@@ -33,13 +33,13 @@ for link in links:
 painted = set()
 counter = 0
 
-6_handsh = (url1, counter)
-while 6_handsh
+six_handsh = (url1, counter)
+while six_handsh
     if url == url2:
             break
     if counter > 5:
         break        
-    url, counter = 6_handsh.pop(0)
+    url, counter = six_handsh.pop(0)
     elif url.endswith (url):
         return True
 
