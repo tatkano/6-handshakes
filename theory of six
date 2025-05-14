@@ -30,12 +30,12 @@ for link in links:
     print(link)
 
 painted = set()
-    6_handsh = (url1, 0)
-    while 6_handsh:
-         if counter > 5:
-            break        
-         url, counter = 6_handsh.pop(0)
-         elif url.endswith (url):
-            return True
+6_handsh = (url1, 0)
+while 6_handsh
+    if counter > 5:
+        break        
+    url, counter = 6_handsh.pop(0)
+    elif url.endswith (url):
+        return True
          
        
