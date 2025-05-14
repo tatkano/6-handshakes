@@ -27,20 +27,20 @@ for link in soup.find_all("a"):
     l = link.get("href")
     if l != None and l.startswith("/wiki"):
         links.add(l)
-for link in links:
-    print(link)
+#for link in links:
+#    print(link)
 
 painted = set()
 counter = 0
 
 six_handsh = (url1, counter)
-while six_handsh
+while six_handsh:
     if url == url2:
-            break
+        break
     if counter > 5:
         break        
     url, counter = six_handsh.pop(0)
-    elif url.endswith (url):
+    if url.endswith (url):
         return True
 
 for link in links:
