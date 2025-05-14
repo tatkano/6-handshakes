@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests as req
 
 url1 = "https://en.wikipedia.org/wiki/Six_degrees_of_separation"
+url2 = "https://en.wikipedia.org/wiki/American_Broadcasting_Company"
 
 # Отправляем HTTP-запрос и получаем ответ
 response = req.get(url1)
@@ -30,8 +31,12 @@ for link in links:
     print(link)
 
 painted = set()
-6_handsh = (url1, 0)
+counter = 0
+
+6_handsh = (url1, counter)
 while 6_handsh
+    if url == url2:
+            break
     if counter > 5:
         break        
     url, counter = 6_handsh.pop(0)
